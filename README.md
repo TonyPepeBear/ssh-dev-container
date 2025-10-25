@@ -7,8 +7,8 @@ Simple Container with SSH server and several develomet packages.
 ## Simple use 簡單使用
 
 ```shell
-docker pull ghcr.io/tonypepebear/ssh-dev-ubuntuc
-docker run -d -p 8000:22 ghcr.io/tonypepebear/ssh-dev-ubuntuc
+docker pull ghcr.io/tonypepebear/ssh-dev-ubuntu
+docker run -d -p 8000:22 ghcr.io/tonypepebear/ssh-dev-ubuntu
 ssh -p 8000 ubuntu@localhost
 ```
 
